@@ -444,7 +444,7 @@ if(res && res.status === "success") {
         },
         body: JSON.stringify({
           address: addresss,
-          points: gameState.points + amount * 1,
+          points: gameState.points + amount * 3,
           reason: 'Staking tokens'
         }),
       });
